@@ -27,12 +27,15 @@ This project implements a full **Tunisian License Plate Recognition pipeline**, 
 
 │── notebook.ipynb # Colab notebook (full pipeline training + ESRGAN generation)
 
+
 ## ⚠️ Real-ESRGAN Model Not Included Here :The file "**RealESRGAN_x4plus.pth**" is **NOT uploaded to GitHub**, because:
 
 - GitHub forbids files **> 100 MB**
 - Real-ESRGAN weights are **111 MB**
+- 
 
 ➡️ **You must run the notebook `notebook.ipynb` once**, which automatically downloads: RealESRGAN_x4plus.pth and saves it in the project directory.
+
 
 📌 The Streamlit app will then work normally.
 ---
@@ -43,6 +46,7 @@ pip install -r requirements.txt
 ### 2. Run Streamlit app
 streamlit run app.py
 
+
 The interface includes:
 *Upload of custom image
 *Test images included in repo
@@ -52,14 +56,21 @@ The interface includes:
 
 
 ⭐ Technologies Used
+
 Task	Model / Library
+
 Vehicle Detection	YOLOv8
+
 Plate Detection	YOLOv8
+
 Super Resolution	Real-ESRGAN
+
 OCR	Microsoft TrOCR
+
 UI	Streamlit
 
 👩‍🎓 Author
+
 Salsabil Ben Halima
 Étudiante en terminale Ingénierie des Données
 Faculté des Sciences — Université de Sfax
