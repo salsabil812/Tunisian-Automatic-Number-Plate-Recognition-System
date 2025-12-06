@@ -34,10 +34,8 @@ This project implements a full **Tunisian License Plate Recognition pipeline**, 
 - Real-ESRGAN weights are **111 MB**
  
 
-➡️ **You must run the notebook `notebook.ipynb` once**, which automatically downloads: RealESRGAN_x4plus.pth and saves it in the project directory.
+➡️ **You must run the notebook `notebook.ipynb` once**, which automatically downloads: RealESRGAN_x4plus.pth and saves it in the project directory. The Streamlit app will then work normally.
 
-
-📌 The Streamlit app will then work normally.
 ---
 ## 🚀 Running the Application Locally
 ### 1. Install dependencies
@@ -72,6 +70,7 @@ The interface includes:
 👩‍🎓 Author :
 
 Salsabil Ben Halima
+
 Étudiante en terminale Ingénierie des Données
 Faculté des Sciences — Université de Sfax
 Département d’Informatique et des Communications
