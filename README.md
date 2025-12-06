@@ -14,14 +14,20 @@ This project implements a full **Tunisian License Plate Recognition pipeline**, 
 ## 🧠 Project Structure
 
 📂 Tunisian-Automatic-Number-Plate-Recognition-System/
+
 │── app.py # Streamlit web app
+
 │── best_Vehicules.pt # YOLOv8 model for vehicle detection
+
 │── best_plaques_final.pt # YOLOv8 model for plate detection
+
 │── requirements.txt # Python dependencies
+
 │── README.md # Documentation
+
 │── notebook.ipynb # Colab notebook (full pipeline training + ESRGAN generation)
 
-## ⚠️ Real-ESRGAN Model Not Included Here :The file **RealESRGAN_x4plus.pth** is **NOT uploaded to GitHub**, because:
+## ⚠️ Real-ESRGAN Model Not Included Here :The file "**RealESRGAN_x4plus.pth**" is **NOT uploaded to GitHub**, because:
 
 - GitHub forbids files **> 100 MB**
 - Real-ESRGAN weights are **111 MB**
