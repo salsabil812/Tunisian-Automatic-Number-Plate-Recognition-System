@@ -1,4 +1,4 @@
-# 🇹🇳 Automatic License Plate Recognition – Tunisia (ALPR Tunisie)
+# 🇹🇳 Automatic License Plate Recognition – Tunisia
 
 This project implements a full **Tunisian License Plate Recognition pipeline**, including:
 
@@ -48,11 +48,11 @@ streamlit run app.py
 
 
 The interface includes:
-*Upload of custom image
-*Test images included in repo
-*Vehicle detection results
-*Plate crops (raw / GAN / OCR)
-*OCR text + Tunisian normalization
+- Upload of custom image
+- Test images included in repo
+- Vehicle detection results
+- Plate crops (raw / GAN / OCR)
+- OCR text + Tunisian normalization
 
 
 ⭐ Technologies Used :
