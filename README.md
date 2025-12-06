@@ -32,7 +32,7 @@ This project implements a full **Tunisian License Plate Recognition pipeline**, 
 
 - GitHub forbids files **> 100 MB**
 - Real-ESRGAN weights are **111 MB**
-- 
+ 
 
 ➡️ **You must run the notebook `notebook.ipynb` once**, which automatically downloads: RealESRGAN_x4plus.pth and saves it in the project directory.
 
@@ -55,21 +55,21 @@ The interface includes:
 *OCR text + Tunisian normalization
 
 
-⭐ Technologies Used
+⭐ Technologies Used :
 
-Task	Model / Library
+- Task	Model / Library
 
-Vehicle Detection	YOLOv8
+- Vehicle Detection	YOLOv8
 
-Plate Detection	YOLOv8
+- Plate Detection	YOLOv8
 
-Super Resolution	Real-ESRGAN
+- Super Resolution	Real-ESRGAN
 
-OCR	Microsoft TrOCR
+- OCR	Microsoft TrOCR
 
-UI	Streamlit
+- UI	Streamlit
 
-👩‍🎓 Author
+👩‍🎓 Author :
 
 Salsabil Ben Halima
 Étudiante en terminale Ingénierie des Données
